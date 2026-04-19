@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+.next/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# Hardware/IDE
+.vscode/
+.pio/
+build/
+*.bin
+*.elf

@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* If you have custom theme colors, you define them like this in v4 */
+@theme {
+  --color-brand-blue: #3b82f6;
+}

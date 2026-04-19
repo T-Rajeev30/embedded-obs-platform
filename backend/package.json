@@ -1,0 +1,29 @@
+{
+  "name": "relay_server",
+  "version": "1.0.0",
+  "description": "> **Sentry for Hardware.** Remote debugging, real-time telemetry, and session replay for ESP32, STM32, and Raspberry Pi — from any browser, anywhere in the world.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T-Rajeev30/embedded-obs-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T-Rajeev30/embedded-obs-platform/issues"
+  },
+  "homepage": "https://github.com/T-Rajeev30/embedded-obs-platform#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1",
+    "socket.io": "^4.8.3",
+    "ws": "^8.20.0"
+  }
+}
